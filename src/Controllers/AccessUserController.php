@@ -33,12 +33,12 @@ class AccessUserController extends Controller
     /**
      * 根据 token 获取用户ID
      */
-    public static function getUidByToken()
+    public static function getUidByToken($token='')
     {
-        $token = isset($_REQUEST['token']) ? $_REQUEST['token'] : '';
+//        $token = isset($_REQUEST['token']) ? $_REQUEST['token'] : '';
         if (!$token) { return 'token已经失效，或者不存在！'; }
         $user = AccessUserModel::where('token',$token)
-            ->where('expire','<',time())
+            ->where('expire','>',time())
             ->first();
         if (!$user) { return 'token已经过期！'; }
         return $user->uid;
