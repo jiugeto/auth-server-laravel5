@@ -9,6 +9,8 @@ class Model extends BaseModel
      * 基础 Model
      */
 
+    public $timestamps = false;
+
     /**
      * random()函数返回随机整数
      */
