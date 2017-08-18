@@ -5,7 +5,7 @@
 - 默认当前数据库的 access_user 表
 
 ## Installation
-- Run `composer require jiuge/auth-server-laravel5`
+- Run `composer require jiugeto/auth-server-laravel5`
 
 
 - Add `Jiuge\AuthServerLaravel5\AuthServiceProvider::class,` to  **providers** in *config/app.php*
