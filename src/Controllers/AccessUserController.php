@@ -33,7 +33,7 @@ class AccessUserController extends Controller
     /**
      * 根据 token 获取用户ID
      */
-    public function getUidByToken()
+    public static function getUidByToken()
     {
         $token = isset($_REQUEST['token']) ? $_REQUEST['token'] : '';
         if (!$token) { return 'token已经失效，或者不存在！'; }
