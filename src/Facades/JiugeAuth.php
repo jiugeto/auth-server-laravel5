@@ -6,15 +6,15 @@ use JiugeTo\AuthServerLaravel5\Controllers\AccessUserController as AccessUser;
 
 class JiugeAuth extends Facade
 {
-    /**
-     * Get the registered name of the component.
-     *
-     * @return string
-     */
-    protected static function getFacadeAccessor()
-    {
-        return 'auth-server-laravel5.jiugeauth';
-    }
+//    /**
+//     * Get the registered name of the component.
+//     *
+//     * @return string
+//     */
+//    protected static function getFacadeAccessor()
+//    {
+//        return 'auth-server-laravel5.jiugeauth';
+//    }
 
     /**
      * 生成 token
