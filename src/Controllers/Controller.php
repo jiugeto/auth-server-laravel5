@@ -1,5 +1,5 @@
 <?php
-namespace Jiuge\AuthServerLaravel5\Controllers;
+namespace JiugeTo\AuthServerLaravel5\Controllers;
 
 use App\Http\Controllers\Controller as BaseController;
 

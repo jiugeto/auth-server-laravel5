@@ -1,5 +1,5 @@
 <?php
-namespace Jiuge\AuthServerLaravel5\Facades;
+namespace JiugeTo\AuthServerLaravel5\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

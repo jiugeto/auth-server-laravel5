@@ -1,8 +1,8 @@
 <?php
-namespace Jiuge\AuthServerLaravel5\Controllers;
+namespace JiugeTo\AuthServerLaravel5\Controllers;
 
-use Jiuge\AuthServerLaravel5\Models\AccessUserModel;
-use Jiuge\AuthServerLaravel5\Models\Model;
+use JiugeTo\AuthServerLaravel5\Models\AccessUserModel;
+use JiugeTo\AuthServerLaravel5\Models\Model;
 
 class AccessUserController extends Controller
 {

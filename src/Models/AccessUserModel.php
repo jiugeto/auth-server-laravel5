@@ -1,5 +1,5 @@
 <?php
-namespace Jiuge\AuthServerLaravel5\Models;
+namespace JiugeTo\AuthServerLaravel5\Models;
 
 class AccessUserModel extends Model
 {
