@@ -9,7 +9,6 @@
             "email": "946493655@qq.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "php": "^7.0"
     },
@@ -22,5 +21,7 @@
         "branch-alias": {
             "dev-master": "1.0-dev"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
