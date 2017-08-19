@@ -16,5 +16,13 @@
         "psr-4": {
             "JiugeTo\\AuthServerLaravel5\\": "src/"
         }
-    }
+    },
+    "version" : "1.0.1",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
