@@ -6,8 +6,6 @@
 
 ## Installation
 - Run `composer require jiugeto/auth-server-laravel5`
-
-
-- Add `Jiuge\AuthServerLaravel5\AuthServiceProvider::class,` to  **providers** in *config/app.php*
-- Add `'JiugeAuth' => Jiuge\AuthServerLaravel5\AuthServiceProvider::class,` to **aliases** in *config/app.php*
-- Run `php artisan vendor:publish`
+- 在MySQL命令行：
+-   use database database_name;
+-   source 项目的绝对路径/vendor/jiuge/auth-server-laravel5/src/DataBases/access_user.sql;
