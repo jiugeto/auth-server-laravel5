@@ -14,7 +14,7 @@
     },
     "autoload": {
         "psr-4": {
-            "JiugeTo\\AuthServerLaravel5\\": "src/"
+            "JiugeTo\\AuthServerLaravel5\\": "packages/jiugeto/auth-server-laravel5/src/"
         }
     },
     "version": "1.0.0",
