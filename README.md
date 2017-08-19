@@ -8,7 +8,7 @@
 - `source 项目的绝对路径/vendor/jiuge/auth-server-laravel5/src/DataBases/access_user.sql;`
 
 ## Installation
-- 在composer.json的require中加上一行：`"jiugeto/auth-server-laravel5" : "1.0.*@dev"`
+- 在composer.json的require中加上一行：`"jiugeto/auth-server-laravel5" : "dev-master"`
 - 然后在项目中，命令行执行：`composer update`
 
 ## 使用方式
