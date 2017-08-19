@@ -11,7 +11,7 @@
 - 在composer.json的require中加上一行：`"jiugeto/auth-server-laravel5" : "dev-master"`
 - 然后在项目中，命令行执行：`composer update`
 ## 方法二：手动下载安装
-- 假如默认更新的不是最新版，则会出错；那么，直接下载包，解压后，放在下面vendor/下面
+- 假如默认更新的不是最新代码，则会出错；那么，直接下载包，解压后，放在下面vendor/下面
 
 ## 使用方式
 - 在控制器，引入文件：
