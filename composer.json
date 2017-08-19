@@ -1,6 +1,7 @@
 {
     "name": "jiugeto/auth-server-laravel5",
     "description": "access_token for laravel5",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
@@ -9,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": "5.4"
+    },
     "autoload": {
         "psr-4": {
             "Jiuge\\AuthServerLaravel5\\": "src/"
