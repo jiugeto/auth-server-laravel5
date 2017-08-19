@@ -1,5 +1,5 @@
 <?php
-namespace JiugeTo\AuthServerLaravel5\Models;
+namespace Jiuge\AuthServerLaravel5\Models;
 
 use Illuminate\Database\Eloquent\Model as BaseModel;
 
@@ -13,8 +13,9 @@ class Model extends BaseModel
 
     /**
      * random()函数返回随机整数
+     * 默认token 40位字母组合
      */
-    public static function getRanddom($length=20, $isNumber=0) {
+    public static function getRanddom($length=40, $isNumber=0) {
         if($isNumber) {
             //纯数字
             $hash = sprintf('%0'.$length.'d', mt_rand(0, pow(10, $length) - 1));

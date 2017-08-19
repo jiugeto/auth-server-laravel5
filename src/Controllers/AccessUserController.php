@@ -16,11 +16,11 @@ class AccessUserController extends Controller
     /**
      * 生成记录，返回 token
      */
-    public static function insert()
+    public static function insert($uid=0)
     {
-        $uid = isset($_REQUEST['uid']) ? $_REQUEST['uid'] : 0;
+//        $uid = isset($_REQUEST['uid']) ? $_REQUEST['uid'] : 0;
         if (!$uid) { return '数据错误！'; }
-        $token = Model::getRanddom(20);
+        $token = Model::getRanddom(40);
         AccessUserModel::create(array(
             'uid' => $uid,
             'token' => $token,
