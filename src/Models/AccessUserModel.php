@@ -1,6 +1,8 @@
 <?php
 namespace JiugeTo\AuthServerLaravel5\Models;
 
+use Jiuge\AuthAdminManager\Models\Model;
+
 class AccessUserModel extends Model
 {
     /**
