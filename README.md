@@ -5,7 +5,7 @@
 # 默认当前数据库的 access_user 表
 - 在MySQL命令行：
 - `use database database_name;`
-- `source 项目的绝对路径/vendor/jiuge/auth-server-laravel5/src/DataBases/access_user.sql;`
+- `source 项目的绝对路径/vendor/jiugeto/auth-server-laravel5/src/DataBases/access_user.sql;`
 
 ## 方法一：Installation
 - 在composer.json的require中加上一行：`"jiugeto/auth-server-laravel5" : "dev-master"`
