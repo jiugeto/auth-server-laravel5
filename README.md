@@ -15,7 +15,9 @@
 
 ## 使用方式
 - 在控制器，引入文件：
+- ```sql
 - `use Illuminate\Http\Request;`
 - `use JiugeTo\AuthServerLaravel5\Facades\JiugeAuth;`
+- ```
 - 可以调用方法，生成access_token令牌：`JiugeAuth::getTokenByUid($request->uid);`
 - 可以调用方法，由access_token令牌获取用户ID：`JiugeAuth::getUidByToken($request->token);`

@@ -17,10 +17,9 @@
             "JiugeTo\\AuthServerLaravel5\\": "src/"
         }
     },
-    "version" : "1.0.1",
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.1-dev"
         }
     },
     "minimum-stability": "dev",
